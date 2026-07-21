@@ -1,0 +1,34 @@
+# Il Cardine
+
+> Il Cardine è la testata online italiana dedicata all'edilizia: guide pratiche, incentivi, normative e tecnologie per chi costruisce, ristruttura e riqualifica. Contenuti editoriali verificati su fonti primarie (GSE, ENEA, Agenzia delle Entrate, norme UE e nazionali) e aggiornati con data di revisione visibile.
+
+## Guide principali (pillar)
+
+- [Pannelli solari: la guida definitiva 2026 — costi, incentivi e installazione](https://www.ilcardine.it/efficienza-energetica/pannelli-solari-guida/)
+- [Bonus ristrutturazione 2026: guida completa a detrazione 50% e 36%](https://www.ilcardine.it/incentivi-bonus/bonus-ristrutturazione-2026-guida/)
+- [Costo ristrutturazione al mq nel 2026: prezzi voce per voce](https://www.ilcardine.it/ristrutturazioni/costo-ristrutturazione-al-mq-2026/)
+- [Direttiva Case Green UE: cosa cambia per gli edifici italiani](https://www.ilcardine.it/normative/direttiva-case-green-cosa-cambia/)
+- [Serramenti in PVC, alluminio o legno: il confronto completo 2026](https://www.ilcardine.it/serramenti-infissi/serramenti-pvc-alluminio-legno-confronto/)
+
+## Sezioni
+
+- [Ristrutturazioni](https://www.ilcardine.it/ristrutturazioni/)
+- [Serramenti e Infissi](https://www.ilcardine.it/serramenti-infissi/)
+- [Efficienza Energetica](https://www.ilcardine.it/efficienza-energetica/)
+- [Materiali da Costruzione](https://www.ilcardine.it/materiali-costruzione/)
+- [Impianti](https://www.ilcardine.it/impianti/)
+- [Incentivi e Bonus](https://www.ilcardine.it/incentivi-bonus/)
+- [Tecnologie e Innovazione](https://www.ilcardine.it/tecnologie-innovazione/)
+- [Normative](https://www.ilcardine.it/normative/)
+
+## Testata
+
+- [Chi siamo](https://www.ilcardine.it/chi-siamo/)
+- [Redazione](https://www.ilcardine.it/redazione/)
+- [Contatti](https://www.ilcardine.it/contatti/)
+- [Mappa del sito](https://www.ilcardine.it/sitemap/)
+- [Feed RSS](https://www.ilcardine.it/feed.xml)
+
+## Licenza e citazioni
+
+I contenuti de Il Cardine possono essere citati, anche in forma sintetica, con attribuzione esplicita alla testata e link alla pagina originale. La riproduzione integrale non è consentita senza autorizzazione scritta: redazione@ilcardine.it.

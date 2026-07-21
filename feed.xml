@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Il Cardine — Notizie e guide sull'edilizia italiana</title>
+    <link>https://www.ilcardine.it/</link>
+    <atom:link href="https://www.ilcardine.it/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>News, guide pratiche, incentivi, normative e tecnologie per chi costruisce, ristruttura e riqualifica in Italia.</description>
+    <language>it-IT</language>
+    <lastBuildDate>Tue, 21 Jul 2026 08:00:00 +0200</lastBuildDate>
+    <item>
+      <title>Pannelli solari: la guida definitiva 2026 — costi, incentivi e installazione</title>
+      <link>https://www.ilcardine.it/efficienza-energetica/pannelli-solari-guida/</link>
+      <description>Dai moduli fotovoltaici al solare termico, dai prezzi al kWp alla detrazione del 50% fino all'iter di installazione: tutto quello che serve sapere prima di mettere i pannelli solari sul tetto.</description>
+      <pubDate>Tue, 21 Jul 2026 08:00:00 +0200</pubDate>
+      <guid isPermaLink="true">https://www.ilcardine.it/efficienza-energetica/pannelli-solari-guida/</guid>
+    </item>
+    <item>
+      <title>Bonus ristrutturazione 2026: guida completa a detrazione 50% e 36%</title>
+      <link>https://www.ilcardine.it/incentivi-bonus/bonus-ristrutturazione-2026-guida/</link>
+      <description>Aliquote, massimale di 96.000 euro, interventi ammessi e adempimenti: come usare la detrazione per la ristrutturazione senza errori.</description>
+      <pubDate>Mon, 20 Jul 2026 08:00:00 +0200</pubDate>
+      <guid isPermaLink="true">https://www.ilcardine.it/incentivi-bonus/bonus-ristrutturazione-2026-guida/</guid>
+    </item>
+    <item>
+      <title>Costo ristrutturazione al mq nel 2026: prezzi voce per voce</title>
+      <link>https://www.ilcardine.it/ristrutturazioni/costo-ristrutturazione-al-mq-2026/</link>
+      <description>Da 600 a 1.800 euro al mq a seconda del livello di intervento: tutte le voci di costo e dove si può risparmiare davvero.</description>
+      <pubDate>Sun, 19 Jul 2026 08:00:00 +0200</pubDate>
+      <guid isPermaLink="true">https://www.ilcardine.it/ristrutturazioni/costo-ristrutturazione-al-mq-2026/</guid>
+    </item>
+    <item>
+      <title>Direttiva Case Green UE: cosa cambia per gli edifici italiani</title>
+      <link>https://www.ilcardine.it/normative/direttiva-case-green-cosa-cambia/</link>
+      <description>Traiettorie di decarbonizzazione, obbligo progressivo di solare e classi energetiche: l'impatto concreto della direttiva sul patrimonio edilizio italiano.</description>
+      <pubDate>Sun, 19 Jul 2026 07:00:00 +0200</pubDate>
+      <guid isPermaLink="true">https://www.ilcardine.it/normative/direttiva-case-green-cosa-cambia/</guid>
+    </item>
+    <item>
+      <title>Quanto costa un impianto fotovoltaico nel 2026: prezzi al kWp e tempi di rientro</title>
+      <link>https://www.ilcardine.it/efficienza-energetica/fotovoltaico-costi-2026/</link>
+      <description>Prezzi chiavi in mano per taglia di impianto, le voci nascoste nei preventivi e quando l'investimento si ripaga.</description>
+      <pubDate>Sat, 18 Jul 2026 08:00:00 +0200</pubDate>
+      <guid isPermaLink="true">https://www.ilcardine.it/efficienza-energetica/fotovoltaico-costi-2026/</guid>
+    </item>
+    <item>
+      <title>Serramenti in PVC, alluminio o legno: il confronto completo 2026</title>
+      <link>https://www.ilcardine.it/serramenti-infissi/serramenti-pvc-alluminio-legno-confronto/</link>
+      <description>Trasmittanza, prezzi, manutenzione e durata a confronto: quale materiale scegliere per le finestre di casa.</description>
+      <pubDate>Fri, 17 Jul 2026 08:00:00 +0200</pubDate>
+      <guid isPermaLink="true">https://www.ilcardine.it/serramenti-infissi/serramenti-pvc-alluminio-legno-confronto/</guid>
+    </item>
+    <item>
+      <title>Materiali isolanti a confronto: EPS, lana di roccia, sughero e fibra di legno</title>
+      <link>https://www.ilcardine.it/materiali-costruzione/materiali-isolanti-confronto/</link>
+      <description>Conducibilità termica, costi al mq e impiego ideale di ogni isolante per pareti, tetti e solai.</description>
+      <pubDate>Thu, 16 Jul 2026 08:00:00 +0200</pubDate>
+      <guid isPermaLink="true">https://www.ilcardine.it/materiali-costruzione/materiali-isolanti-confronto/</guid>
+    </item>
+    <item>
+      <title>Incentivi fotovoltaico 2026: detrazione 50%, comunità energetiche e ritiro dedicato</title>
+      <link>https://www.ilcardine.it/efficienza-energetica/fotovoltaico-incentivi-2026/</link>
+      <description>Tutte le agevolazioni utilizzabili per il fotovoltaico nel 2026 e come combinarle senza violare il principio di non cumulo.</description>
+      <pubDate>Wed, 15 Jul 2026 08:00:00 +0200</pubDate>
+      <guid isPermaLink="true">https://www.ilcardine.it/efficienza-energetica/fotovoltaico-incentivi-2026/</guid>
+    </item>
+    <item>
+      <title>BIM obbligatorio in Italia: scadenze, soglie e obblighi per imprese e studi</title>
+      <link>https://www.ilcardine.it/tecnologie-innovazione/bim-obbligatorio-scadenze/</link>
+      <description>Le tappe del decreto BIM, le soglie di importo che fanno scattare l'obbligo e cosa devono fare imprese e professionisti per adeguarsi.</description>
+      <pubDate>Wed, 15 Jul 2026 07:00:00 +0200</pubDate>
+      <guid isPermaLink="true">https://www.ilcardine.it/tecnologie-innovazione/bim-obbligatorio-scadenze/</guid>
+    </item>
+    <item>
+      <title>Riscaldamento a pavimento: pro, contro, costi e consumi reali</title>
+      <link>https://www.ilcardine.it/impianti/riscaldamento-a-pavimento-guida/</link>
+      <description>Comfort, basse temperature di mandata e abbinamento con la pompa di calore: quando il radiante a pavimento è la scelta giusta.</description>
+      <pubDate>Tue, 14 Jul 2026 08:00:00 +0200</pubDate>
+      <guid isPermaLink="true">https://www.ilcardine.it/impianti/riscaldamento-a-pavimento-guida/</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Google News sitemap: solo articoli pubblicati negli ultimi 2 giorni (riferimento 2026-07-21) -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url>
+    <loc>https://www.ilcardine.it/efficienza-energetica/pannelli-solari-guida/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Il Cardine</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-21T08:00:00+02:00</news:publication_date>
+      <news:title>Pannelli solari: la guida definitiva 2026 — costi, incentivi e installazione</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.ilcardine.it/incentivi-bonus/bonus-ristrutturazione-2026-guida/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Il Cardine</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-20T08:00:00+02:00</news:publication_date>
+      <news:title>Bonus ristrutturazione 2026: guida completa a detrazione 50% e 36%</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.ilcardine.it/ristrutturazioni/costo-ristrutturazione-al-mq-2026/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Il Cardine</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-19T08:00:00+02:00</news:publication_date>
+      <news:title>Costo ristrutturazione al mq nel 2026: prezzi voce per voce</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.ilcardine.it/normative/direttiva-case-green-cosa-cambia/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Il Cardine</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-19T08:00:00+02:00</news:publication_date>
+      <news:title>Direttiva Case Green UE: cosa cambia per gli edifici italiani</news:title>
+    </news:news>
+  </url>
+</urlset>

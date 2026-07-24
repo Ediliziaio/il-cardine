@@ -6,8 +6,8 @@
   "description": "Il Cardine — testata giornalistica online verticale sull'edilizia: ristrutturazioni, serramenti, efficienza energetica, materiali, impianti, incentivi, tecnologie e normative",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "node tools/build-static.mjs",
+    "preview": "vite preview --outDir dist"
   },
   "devDependencies": {
     "vite": "^5.4.0"

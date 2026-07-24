@@ -70,7 +70,7 @@ def fix_head_image(html, slug):
     html = html.replace(old_meta, new_meta, 1)
     # twitter:image (non presente nel sito: lo aggiungiamo dopo twitter:card)
     if 'name="twitter:image"' not in html:
-        tw_card = '<meta name="twitter:card" content="summary">'
+        tw_card = '<meta name="twitter:card" content="summary_large_image">'
         assert tw_card in html, "twitter:card non trovato"
         html = html.replace(
             tw_card,

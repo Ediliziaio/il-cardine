@@ -330,7 +330,7 @@ def build(a):
   <meta property="article:modified_time" content="{a['date_iso']}">
   <meta property="article:section" content="{a['silo_name']}">
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{a['title_tag']}">
   <meta name="twitter:description" content="{a['tw_desc']}">
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">

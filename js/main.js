@@ -11,7 +11,8 @@
     var fmt = new Intl.DateTimeFormat("it-IT", {
       weekday: "long", day: "numeric", month: "long", year: "numeric"
     });
-    dateEl.textContent = fmt.format(new Date());
+    var s = fmt.format(new Date());
+    dateEl.textContent = s.charAt(0).toUpperCase() + s.slice(1);
   }
 
   // --- Anno corrente nel footer ---

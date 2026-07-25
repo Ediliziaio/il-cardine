@@ -4,8 +4,8 @@
 // l'intero sito in dist/ escludendo solo i file di sviluppo, così dist/ è un
 // artefatto deployabile completo (Vercel/Cloudflare/OVH) e `vite preview` lo
 // serve integralmente.
-import { cpSync, rmSync, mkdirSync, readdirSync } from 'node:fs';
-import { resolve, relative, sep } from 'node:path';
+import { cpSync, rmSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { resolve, relative, join } from 'node:path';
 
 const root = process.cwd();
 const out = resolve(root, 'dist');
@@ -36,11 +36,26 @@ for (const entry of readdirSync(root)) {
   });
 }
 
-const count = (dir) => {
-  let n = 0;
-  for (const e of readdirSync(dir, { recursive: true })) {
-    if (String(e).endsWith('.html')) n++;
+// Timbro data odierna nella topbar (data-tb-date): l'HTML sorgente ha un
+// placeholder statico; qui lo aggiorniamo così anche senza JS / per i crawler
+// la data servita è quella del build. Il JS (main.js) la raffina live.
+let stamped = new Intl.DateTimeFormat('it-IT', {
+  weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
+}).format(new Date());
+stamped = stamped.charAt(0).toUpperCase() + stamped.slice(1);
+const tbRe = /(<[^>]*data-tb-date[^>]*>)[^<]*(<\/)/;
+
+const htmlFiles = readdirSync(out, { recursive: true })
+  .map(String)
+  .filter((e) => e.endsWith('.html'));
+let dated = 0;
+for (const rel of htmlFiles) {
+  const p = join(out, rel);
+  const html = readFileSync(p, 'utf8');
+  if (tbRe.test(html)) {
+    writeFileSync(p, html.replace(tbRe, `$1${stamped}$2`));
+    dated++;
   }
-  return n;
-};
-console.log(`Static build completata → dist/ (${count(out)} pagine HTML)`);
+}
+
+console.log(`Static build completata → dist/ (${htmlFiles.length} pagine HTML, data timbrata su ${dated}: ${stamped})`);

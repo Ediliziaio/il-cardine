@@ -232,14 +232,17 @@ def json_ld(a, word_count):
         }},
         "publisher": {{
           "@type": "Organization",
+          "@id": "https://www.ilcardine.it/#organization",
           "name": "Il Cardine",
+          "legalName": "Domus Group S.r.l.",
           "url": "https://www.ilcardine.it/",
           "logo": {{
             "@type": "ImageObject",
             "url": "{LOGO}",
             "width": 634,
             "height": 128
-          }}
+          }},
+          "vatID": "IT13132010961"
         }},
         "mainEntityOfPage": "{a['url']}",
         "image": "{LOGO}",

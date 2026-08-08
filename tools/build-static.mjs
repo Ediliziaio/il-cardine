@@ -36,26 +36,24 @@ for (const entry of readdirSync(root)) {
   });
 }
 
-// Timbro data odierna nella topbar (data-tb-date): l'HTML sorgente ha un
-// placeholder statico; qui lo aggiorniamo così anche senza JS / per i crawler
-// la data servita è quella del build. Il JS (main.js) la raffina live.
-let stamped = new Intl.DateTimeFormat('it-IT', {
-  weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
-}).format(new Date());
-stamped = stamped.charAt(0).toUpperCase() + stamped.slice(1);
+// Svuota il placeholder della data in topbar (data-tb-date).
+// NON timbriamo la data del build: cambierebbe il contenuto di tutte le pagine
+// a ogni deploy (churn) senza che il contenuto reale cambi, e Google impara a
+// ignorare la freschezza dichiarata dal sito. L'HTML resta identico tra build;
+// la data la scrive main.js lato client, sempre corretta.
 const tbRe = /(<[^>]*data-tb-date[^>]*>)[^<]*(<\/)/;
 
 const htmlFiles = readdirSync(out, { recursive: true })
   .map(String)
   .filter((e) => e.endsWith('.html'));
-let dated = 0;
+let cleaned = 0;
 for (const rel of htmlFiles) {
   const p = join(out, rel);
   const html = readFileSync(p, 'utf8');
   if (tbRe.test(html)) {
-    writeFileSync(p, html.replace(tbRe, `$1${stamped}$2`));
-    dated++;
+    writeFileSync(p, html.replace(tbRe, '$1$2'));
+    cleaned++;
   }
 }
 
-console.log(`Static build completata → dist/ (${htmlFiles.length} pagine HTML, data timbrata su ${dated}: ${stamped})`);
+console.log(`Static build completata → dist/ (${htmlFiles.length} pagine HTML, topbar stabile su ${cleaned})`);

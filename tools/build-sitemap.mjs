@@ -2,15 +2,31 @@
 // - Dominio canonico: https://www.ilcardine.it (coerente coi canonical del sito)
 // - Include ogni /index.html indicizzabile; esclude pagine con robots noindex
 //   (es. /cerca/) e la 404.
-// - Priorita'/changefreq: riusa quelle curate nella sitemap esistente se
-//   presenti, altrimenti le deriva dal tipo di pagina.
-// - lastmod: data odierna (le pagine sono state aggiornate).
+// - Priorita'/changefreq derivate dal tipo di pagina.
+// - lastmod: data reale per pagina (vedi lastmodFor), mai "oggi" a tappeto.
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
 import { join } from 'node:path';
 
 const ORIGIN = 'https://www.ilcardine.it';
 const root = process.cwd();
-const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+
+// lastmod REALE per pagina. Mai "oggi" su tutte le URL: un lastmod che si
+// sposta a ogni build e' fake freshness, Google impara a ignorare la sitemap
+// e riduce la scansione. Fonte di verita', in ordine:
+//   1) dateModified del JSON-LD (la data editoriale dichiarata nella pagina)
+//   2) data dell'ultimo commit che ha toccato il file (contenuto vero)
+function lastmodFor(file, html) {
+  const m = html.match(/"dateModified"\s*:\s*"(\d{4}-\d{2}-\d{2})/);
+  if (m) return m[1];
+  try {
+    const out = execFileSync('git', ['log', '-1', '--format=%cs', '--', file], {
+      encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'],
+    }).trim();
+    if (out) return out;
+  } catch { /* file non tracciato o git assente */ }
+  return new Date().toISOString().slice(0, 10);
+}
 
 // Scansione ricorsiva degli index.html
 const DEV = new Set(['dist', 'node_modules', '.git', '.claude', 'build', 'tools', 'assets', 'css', 'js']);
@@ -22,9 +38,10 @@ const pages = [];
       walk(join(dir, entry.name));
     } else if (entry.name === 'index.html') {
       const rel = dir === root ? '' : dir.slice(root.length + 1).replaceAll('\\', '/') + '/';
-      const html = readFileSync(join(dir, entry.name), 'utf8');
+      const file = join(dir, entry.name);
+      const html = readFileSync(file, 'utf8');
       if (/<meta[^>]+noindex/i.test(html)) continue; // esclude /cerca/ ecc.
-      pages.push(rel);
+      pages.push({ rel, lastmod: lastmodFor(rel + 'index.html', html) });
     }
   }
 })(root);
@@ -43,7 +60,7 @@ function rule(rel) {
 
 // Costruzione XML (ordine alfabetico stabile per loc)
 const urls = pages
-  .map((rel) => ({ loc: ORIGIN + '/' + rel, lastmod: today, ...rule(rel) }))
+  .map(({ rel, lastmod }) => ({ loc: ORIGIN + '/' + rel, lastmod, ...rule(rel) }))
   .sort((a, b) => a.loc.localeCompare(b.loc));
 
 const body = urls
@@ -52,4 +69,5 @@ const body = urls
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
 writeFileSync('sitemap.xml', xml);
-console.log(`sitemap.xml rigenerata: ${urls.length} URL su ${ORIGIN} (lastmod ${today})`);
+const dates = [...new Set(urls.map((u) => u.lastmod))].sort();
+console.log(`sitemap.xml rigenerata: ${urls.length} URL su ${ORIGIN} (lastmod reali: ${dates.join(', ')})`);

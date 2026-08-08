@@ -37,4 +37,3 @@ User-agent: meta-externalagent
 Allow: /
 
 Sitemap: https://www.ilcardine.it/sitemap.xml
-Sitemap: https://www.ilcardine.it/news-sitemap.xml

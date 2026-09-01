@@ -217,7 +217,7 @@ def json_ld(a, word_count):
     "@context": "https://schema.org",
     "@graph": [
       {{
-        "@type": "NewsArticle",
+        "@type": "Article",
         "@id": "{a['url']}#article",
         "headline": "{esc(a['h1'])}",
         "description": "{esc(a['desc'])}",

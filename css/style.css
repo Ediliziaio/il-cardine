@@ -145,12 +145,28 @@ h1, h2, h3, h4 { font-family: var(--font-head); line-height: 1.15; margin: 0 0 .
    riempito (ins/iframe/img), e da quel momento lo slot si mostra. */
 .ad-slot { display: none; }
 .ad-slot.is-filled {
-  background: repeating-linear-gradient(45deg, #f6f7f9, #f6f7f9 12px, #eceff4 12px, #eceff4 24px);
-  border: 1px dashed #c2ccd9;
-  border-radius: var(--radius);
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   color: #8b96a6; text-align: center; margin: 0 auto;
 }
+/* Placeholder (nessuna creativita'): riquadro tratteggiato con la misura. */
+.ad-slot.is-filled:not(:has(img)) {
+  background: repeating-linear-gradient(45deg, #f6f7f9, #f6f7f9 12px, #eceff4 12px, #eceff4 24px);
+  border: 1px dashed #c2ccd9;
+  border-radius: var(--radius);
+}
+/* Creativita' reale: l'immagine detta l'altezza (width+height sull'img =>
+   spazio riservato, zero CLS) e le min-height da placeholder non servono piu'. */
+.ad-slot:has(img) { min-height: 0; }
+.ad-slot .ad-creative { display: block; width: 100%; }
+.ad-slot .ad-creative img {
+  width: 100%; height: auto; display: block;
+  border-radius: var(--radius); border: 1px solid var(--line);
+}
+.ad-slot .ad-creative:hover img { border-color: var(--orange); }
+.ad-slot:has(img) .ad-tag { margin-bottom: 6px; }
+/* Visibilita' responsive: queste regole devono battere .ad-slot.is-filled,
+   quindi usano la stessa specificita' (0,2,0) e vengono dopo. */
+.ad-slot.mobile-only { display: none; }
 .ad-slot .ad-tag { font-size: 10px; letter-spacing: .22em; text-transform: uppercase; font-weight: 700; }
 .ad-slot .ad-size { font-size: 12px; margin-top: 4px; color: #98a2b1; }
 .ad-leaderboard { width: min(728px, 100%); min-height: 90px; margin-top: 22px; margin-bottom: 22px; }
@@ -458,8 +474,9 @@ figure.thumb { margin: 0 0 1.6em; }
   .card-grid, .card-grid.cg-2, .card-grid.cg-4, .related-grid { grid-template-columns: 1fr; }
   .masthead .mh-tagline { display: none; }
   .topbar .tb-links { display: none; }
-  .ad-leaderboard { display: none; }
+  .ad-slot.ad-leaderboard { display: none; }
   .mobile-only { display: flex; }
+  .ad-slot.mobile-only.is-filled { display: flex; }
   .ad-inarticle { float: none; margin: 20px auto; }
   .footer-grid { grid-template-columns: 1fr; }
   .article-body { font-size: 17.5px; }

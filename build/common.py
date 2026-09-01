@@ -204,11 +204,11 @@ def header(silo):
   <div class="container">
     <div class="ad-slot ad-leaderboard" data-ad-slot="leaderboard-top" role="complementary" aria-label="Spazio pubblicitario">
       <span class="ad-tag">Pubblicità</span>
-      <span class="ad-size">Leaderboard 728×90</span>
+      <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-leaderboard.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="1456" height="136" loading="lazy" decoding="async"></a>
     </div>
     <div class="ad-slot ad-mobile mobile-only" data-ad-slot="mobile-top" role="complementary" aria-label="Spazio pubblicitario">
       <span class="ad-tag">Pubblicità</span>
-      <span class="ad-size">Mobile banner 320×100</span>
+      <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-billboard.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="1200" height="498" loading="lazy" decoding="async"></a>
     </div>
   </div>
 
@@ -220,7 +220,7 @@ SIDEBAR = """        <!-- Sidebar articolo -->
         <aside class="sidebar">
           <div class="ad-slot ad-halfpage" data-ad-slot="sidebar-halfpage" role="complementary" aria-label="Spazio pubblicitario">
             <span class="ad-tag">Pubblicità</span>
-            <span class="ad-size">Half page 300×600</span>
+            <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-rect.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="600" height="500" loading="lazy" decoding="async"></a>
           </div>
 
           <section class="widget" aria-labelledby="piu-letti">
@@ -250,7 +250,7 @@ SIDEBAR = """        <!-- Sidebar articolo -->
 FOOTER = """  <!-- Slot pubblicitario: footer -->
   <div class="ad-slot ad-footer" data-ad-slot="footer-leaderboard" role="complementary" aria-label="Spazio pubblicitario">
     <span class="ad-tag">Pubblicità</span>
-    <span class="ad-size">Leaderboard 728×90</span>
+    <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-leaderboard.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="1456" height="136" loading="lazy" decoding="async"></a>
   </div>
 
   <!-- FOOTER CANONICO — identico in tutte le pagine -->

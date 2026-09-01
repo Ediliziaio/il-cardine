@@ -86,11 +86,11 @@ def header_block(active):
   <div class="container">
     <div class="ad-slot ad-leaderboard" data-ad-slot="leaderboard-top" role="complementary" aria-label="Spazio pubblicitario">
       <span class="ad-tag">Pubblicità</span>
-      <span class="ad-size">Leaderboard 728×90</span>
+      <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-leaderboard.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="1456" height="136" loading="lazy" decoding="async"></a>
     </div>
     <div class="ad-slot ad-mobile mobile-only" data-ad-slot="mobile-top" role="complementary" aria-label="Spazio pubblicitario">
       <span class="ad-tag">Pubblicità</span>
-      <span class="ad-size">Mobile banner 320×100</span>
+      <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-billboard.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="1200" height="498" loading="lazy" decoding="async"></a>
     </div>
   </div>
 '''
@@ -98,7 +98,7 @@ def header_block(active):
 FOOTER = '''  <!-- Slot pubblicitario: footer -->
   <div class="ad-slot ad-footer" data-ad-slot="footer-leaderboard" role="complementary" aria-label="Spazio pubblicitario">
     <span class="ad-tag">Pubblicità</span>
-    <span class="ad-size">Leaderboard 728×90</span>
+    <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-leaderboard.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="1456" height="136" loading="lazy" decoding="async"></a>
   </div>
 
   <!-- FOOTER CANONICO — identico in tutte le pagine -->
@@ -159,7 +159,7 @@ SIDEBAR = '''        <!-- Sidebar articolo -->
         <aside class="sidebar">
           <div class="ad-slot ad-halfpage" data-ad-slot="sidebar-halfpage" role="complementary" aria-label="Spazio pubblicitario">
             <span class="ad-tag">Pubblicità</span>
-            <span class="ad-size">Half page 300×600</span>
+            <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-rect.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="600" height="500" loading="lazy" decoding="async"></a>
           </div>
 
           <section class="widget" aria-labelledby="piu-letti">
@@ -509,7 +509,7 @@ ARTICLES.append(dict(
 
           <div class="ad-slot ad-rect ad-inarticle" data-ad-slot="inarticle-1" role="complementary" aria-label="Spazio pubblicitario">
             <span class="ad-tag">Pubblicità</span>
-            <span class="ad-size">Rectangle 300×250</span>
+            <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-inarticle.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="700" height="509" loading="lazy" decoding="async"></a>
           </div>
 
           <h2 id="costi">Quanto costano i serramenti in PVC, alluminio e legno?</h2>
@@ -524,7 +524,7 @@ ARTICLES.append(dict(
 
           <div class="ad-slot ad-rect ad-inarticle" data-ad-slot="inarticle-2" role="complementary" aria-label="Spazio pubblicitario">
             <span class="ad-tag">Pubblicità</span>
-            <span class="ad-size">Rectangle 300×250</span>
+            <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-inarticle.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="700" height="509" loading="lazy" decoding="async"></a>
           </div>
 
           <h2 id="quale-scegliere">Meglio serramenti in PVC o alluminio? La scelta in base al contesto</h2>
@@ -644,7 +644,7 @@ ARTICLES.append(dict(
 
           <div class="ad-slot ad-rect ad-inarticle" data-ad-slot="inarticle-1" role="complementary" aria-label="Spazio pubblicitario">
             <span class="ad-tag">Pubblicità</span>
-            <span class="ad-size">Rectangle 300×250</span>
+            <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-inarticle.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="700" height="509" loading="lazy" decoding="async"></a>
           </div>
 
           <h2 id="quando-no">Quando invece il doppio vetro basta</h2>
@@ -657,7 +657,7 @@ ARTICLES.append(dict(
 
           <div class="ad-slot ad-rect ad-inarticle" data-ad-slot="inarticle-2" role="complementary" aria-label="Spazio pubblicitario">
             <span class="ad-tag">Pubblicità</span>
-            <span class="ad-size">Rectangle 300×250</span>
+            <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-inarticle.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="700" height="509" loading="lazy" decoding="async"></a>
           </div>
 
           <h2 id="abbinamenti">Triplo vetro, telaio e posa: il sistema completo</h2>
@@ -769,7 +769,7 @@ ARTICLES.append(dict(
 
           <div class="ad-slot ad-rect ad-inarticle" data-ad-slot="inarticle-1" role="complementary" aria-label="Spazio pubblicitario">
             <span class="ad-tag">Pubblicità</span>
-            <span class="ad-size">Rectangle 300×250</span>
+            <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-inarticle.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="700" height="509" loading="lazy" decoding="async"></a>
           </div>
 
           <h2 id="preventivo">Come leggere un preventivo senza farsi ingannare</h2>
@@ -794,7 +794,7 @@ ARTICLES.append(dict(
 
           <div class="ad-slot ad-rect ad-inarticle" data-ad-slot="inarticle-2" role="complementary" aria-label="Spazio pubblicitario">
             <span class="ad-tag">Pubblicità</span>
-            <span class="ad-size">Rectangle 300×250</span>
+            <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-inarticle.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="700" height="509" loading="lazy" decoding="async"></a>
           </div>
 
           <h2 id="risparmiare">Come risparmiare senza rinunciare alla qualità</h2>
@@ -907,7 +907,7 @@ ARTICLES.append(dict(
 
           <div class="ad-slot ad-rect ad-inarticle" data-ad-slot="inarticle-1" role="complementary" aria-label="Spazio pubblicitario">
             <span class="ad-tag">Pubblicità</span>
-            <span class="ad-size">Rectangle 300×250</span>
+            <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-inarticle.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="700" height="509" loading="lazy" decoding="async"></a>
           </div>
 
           <h2 id="garanzie">Garanzie, certificazioni e ricambi: cosa pretendere</h2>
@@ -920,7 +920,7 @@ ARTICLES.append(dict(
 
           <div class="ad-slot ad-rect ad-inarticle" data-ad-slot="inarticle-2" role="complementary" aria-label="Spazio pubblicitario">
             <span class="ad-tag">Pubblicità</span>
-            <span class="ad-size">Rectangle 300×250</span>
+            <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-inarticle.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="700" height="509" loading="lazy" decoding="async"></a>
           </div>
 
           <h2 id="come-scegliere">Come scegliere il produttore giusto per il proprio progetto</h2>
@@ -1007,7 +1007,7 @@ ARTICLES.append(dict(
 
           <div class="ad-slot ad-rect ad-inarticle" data-ad-slot="inarticle-1" role="complementary" aria-label="Spazio pubblicitario">
             <span class="ad-tag">Pubblicità</span>
-            <span class="ad-size">Rectangle 300×250</span>
+            <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-inarticle.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="700" height="509" loading="lazy" decoding="async"></a>
           </div>
 
           <h2 id="sughero">Sughero: il naturale per l'estate</h2>
@@ -1037,7 +1037,7 @@ ARTICLES.append(dict(
 
           <div class="ad-slot ad-rect ad-inarticle" data-ad-slot="inarticle-2" role="complementary" aria-label="Spazio pubblicitario">
             <span class="ad-tag">Pubblicità</span>
-            <span class="ad-size">Rectangle 300×250</span>
+            <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-inarticle.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="700" height="509" loading="lazy" decoding="async"></a>
           </div>
 
           <h2 id="quale-scegliere">Quale isolante scegliere per cappotto, parete e tetto?</h2>
@@ -1144,7 +1144,7 @@ ARTICLES.append(dict(
 
           <div class="ad-slot ad-rect ad-inarticle" data-ad-slot="inarticle-1" role="complementary" aria-label="Spazio pubblicitario">
             <span class="ad-tag">Pubblicità</span>
-            <span class="ad-size">Rectangle 300×250</span>
+            <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-inarticle.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="700" height="509" loading="lazy" decoding="async"></a>
           </div>
 
           <h2 id="antisismica">Le prestazioni antisismiche delle case in XLAM</h2>
@@ -1158,7 +1158,7 @@ ARTICLES.append(dict(
 
           <div class="ad-slot ad-rect ad-inarticle" data-ad-slot="inarticle-2" role="complementary" aria-label="Spazio pubblicitario">
             <span class="ad-tag">Pubblicità</span>
-            <span class="ad-size">Rectangle 300×250</span>
+            <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-inarticle.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="700" height="509" loading="lazy" decoding="async"></a>
           </div>
 
           <h2 id="limiti">I limiti e gli errori da evitare</h2>
@@ -1272,7 +1272,7 @@ ARTICLES.append(dict(
 
           <div class="ad-slot ad-rect ad-inarticle" data-ad-slot="inarticle-1" role="complementary" aria-label="Spazio pubblicitario">
             <span class="ad-tag">Pubblicità</span>
-            <span class="ad-size">Rectangle 300×250</span>
+            <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-inarticle.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="700" height="509" loading="lazy" decoding="async"></a>
           </div>
 
           <h2 id="prezzi">Quanto costa il calcestruzzo al metro cubo nel 2026?</h2>
@@ -1285,7 +1285,7 @@ ARTICLES.append(dict(
 
           <div class="ad-slot ad-rect ad-inarticle" data-ad-slot="inarticle-2" role="complementary" aria-label="Spazio pubblicitario">
             <span class="ad-tag">Pubblicità</span>
-            <span class="ad-size">Rectangle 300×250</span>
+            <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-inarticle.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="700" height="509" loading="lazy" decoding="async"></a>
           </div>
 
           <h2 id="getto-stagionatura">Getto e stagionatura: dove si gioca la qualità</h2>
@@ -1393,7 +1393,7 @@ ARTICLES.append(dict(
 
           <div class="ad-slot ad-rect ad-inarticle" data-ad-slot="inarticle-1" role="complementary" aria-label="Spazio pubblicitario">
             <span class="ad-tag">Pubblicità</span>
-            <span class="ad-size">Rectangle 300×250</span>
+            <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-inarticle.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="700" height="509" loading="lazy" decoding="async"></a>
           </div>
 
           <h2 id="tramezzi">Tramezzi e pareti interne in laterizio</h2>
@@ -1406,7 +1406,7 @@ ARTICLES.append(dict(
 
           <div class="ad-slot ad-rect ad-inarticle" data-ad-slot="inarticle-2" role="complementary" aria-label="Spazio pubblicitario">
             <span class="ad-tag">Pubblicità</span>
-            <span class="ad-size">Rectangle 300×250</span>
+            <a class="ad-creative" href="https://www.ediliziaincloud.com/" target="_blank" rel="sponsored noopener"><img src="/assets/ads/eic-inarticle.webp" alt="EdiliziaInCloud, il gestionale con AI per l'edilizia: prova gratuita di 31 giorni" width="700" height="509" loading="lazy" decoding="async"></a>
           </div>
 
           <h2 id="posa-prezzi">Posa in opera e prezzi nel 2026</h2>

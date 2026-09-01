@@ -136,8 +136,15 @@ h1, h2, h3, h4 { font-family: var(--font-head); line-height: 1.15; margin: 0 0 .
 .ticker-items a { color: var(--ink-soft); }
 .ticker-items a::before { content: "›"; color: var(--orange); margin-right: 8px; font-weight: 700; }
 
-/* ---------- Slot pubblicitari (dimensioni riservate, no CLS) ---------- */
-.ad-slot {
+/* ---------- Slot pubblicitari (dimensioni riservate, no CLS) ----------
+   Gli slot restano nel markup, pronti per AdSense/Ad Manager, ma NON sono
+   renderizzati finche' non contengono una creativita' reale: decine di
+   riquadri "Pubblicita'" vuoti fanno leggere il sito come incompleto /
+   costruito per gli annunci, e su un dominio nuovo e' un freno
+   all'indicizzazione. main.js aggiunge .is-filled quando lo slot viene
+   riempito (ins/iframe/img), e da quel momento lo slot si mostra. */
+.ad-slot { display: none; }
+.ad-slot.is-filled {
   background: repeating-linear-gradient(45deg, #f6f7f9, #f6f7f9 12px, #eceff4 12px, #eceff4 24px);
   border: 1px dashed #c2ccd9;
   border-radius: var(--radius);

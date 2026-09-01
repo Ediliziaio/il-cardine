@@ -15,6 +15,29 @@
     dateEl.textContent = s.charAt(0).toUpperCase() + s.slice(1);
   }
 
+  // --- Slot pubblicitari: mostra solo quelli realmente riempiti ---
+  // Gli slot sono nascosti via CSS finche' non contengono una creativita'
+  // (ins AdSense / iframe / img). Cosi' il sito non espone decine di riquadri
+  // "Pubblicita'" vuoti, che leggono come pagina incompleta.
+  var adSlots = document.querySelectorAll(".ad-slot");
+  if (adSlots.length) {
+    var markFilled = function (slot) {
+      if (slot.querySelector("ins, iframe, img")) slot.classList.add("is-filled");
+    };
+    for (var a = 0; a < adSlots.length; a++) markFilled(adSlots[a]);
+    if (window.MutationObserver) {
+      var adObserver = new MutationObserver(function (records) {
+        for (var r = 0; r < records.length; r++) {
+          var target = records[r].target.closest && records[r].target.closest(".ad-slot");
+          if (target) markFilled(target);
+        }
+      });
+      for (var b = 0; b < adSlots.length; b++) {
+        adObserver.observe(adSlots[b], { childList: true, subtree: true });
+      }
+    }
+  }
+
   // --- Anno corrente nel footer ---
   var yearEls = document.querySelectorAll("[data-year]");
   for (var i = 0; i < yearEls.length; i++) {

@@ -2,6 +2,7 @@
 """Generatore articoli Il Cardine — serramenti-infissi + materiali-costruzione.
 Replica ESATTAMENTE il template canonico efficienza-energetica/pannelli-solari-guida."""
 import re, os
+import unicodedata
 from urllib.parse import quote
 
 ROOT = "/Users/agenteai/Documents/kimi/workspace/il-cardine"
@@ -226,8 +227,9 @@ def json_ld(a, word_count):
         "dateModified": "{a['date_iso']}",
         "author": {{
           "@type": "Person",
+          "@id": "https://www.ilcardine.it/redazione/#{author_slug}",
           "name": "{a['author']}",
-          "url": "https://www.ilcardine.it/redazione/",
+          "url": "https://www.ilcardine.it/redazione/#{author_slug}",
           "jobTitle": "Giornalista, redazione Il Cardine"
         }},
         "publisher": {{
@@ -304,9 +306,16 @@ def share_html(a):
             <a href="mailto:?subject={st}&body={u}">Email</a>
           </div>'''
 
+def author_slug_of(name):
+    """Slug dell'autore: aggancia la firma all'entita' Person di /redazione/."""
+    s = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode()
+    return s.lower().replace(" ", "-")
+
+
 def build(a):
     body_text = strip_html(a["answer"] + " " + a["body"] + " " + " ".join(q + " " + strip_html(ans) for q, ans in a["faqs"]))
     word_count = len(body_text.split())
+    author_slug = author_slug_of(a["author"])
     toc_items = "\n".join(f'              <li><a href="#{i}">{lbl}</a></li>' for i, lbl in a["toc"])
     tags = "\n".join(f'            <a href="{h}">{lbl}</a>' for h, lbl in a["tags"])
     page = f'''<!DOCTYPE html>

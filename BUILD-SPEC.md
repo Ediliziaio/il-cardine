@@ -87,7 +87,7 @@ Nei link interni usare percorsi assoluti da root (`/efficienza-energetica/pannel
 
 ## Template articolo (obbligatorio, identico per tutti) — vedi l'esemplare
 L'esemplare canonico è `efficienza-energetica/pannelli-solari-guida/index.html`. Ogni articolo DEVE replicarne struttura e classi CSS:
-1. `<head>`: title ≤60 char con keyword; meta description ≤155 char; canonical assoluto; robots `index,follow,max-image-preview:large`; OG+Twitter card; JSON-LD `@graph` con NewsArticle (author Person redazione, publisher Organization con logo, datePublished, dateModified, mainEntityOfPage, image, wordCount), BreadcrumbList (Home > Silo > Titolo), FAQPage (allineata alle FAQ visibili).
+1. `<head>`: title ≤60 char con keyword; meta description ≤155 char; canonical assoluto; robots `index,follow,max-image-preview:large`; OG+Twitter card; JSON-LD `@graph` con Article (author Person redazione, publisher Organization con logo, datePublished, dateModified, mainEntityOfPage, image, wordCount), BreadcrumbList (Home > Silo > Titolo), FAQPage (allineata alle FAQ visibili).
 2. Breadcrumb visibile con aria-label.
 3. Kicker categoria, un solo H1, standfirst, byline (autore con link `/redazione/`, data pubblicazione + "Aggiornato il", minuti lettura).
 4. Box "Risposta rapida" (`answer-box`, 40-60 parole auto-conclusive, risponde alla domanda della keyword).

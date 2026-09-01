@@ -67,11 +67,11 @@ for silo in SILOS:
             except Exception as e:
                 errors.append(f"{slug}: JSON-LD non valido: {e}"); good = False; continue
             for node in data.get("@graph", []):
-                if node.get("@type") == "NewsArticle":
+                if node.get("@type") == "Article":
                     img = node.get("image", "")
                     if img != f"https://www.ilcardine.it/assets/img/{slug}.webp":
-                        errors.append(f"{slug}: NewsArticle.image = {img}"); good = False
-                if node.get("@type") == "NewsArticle" and \
+                        errors.append(f"{slug}: Article.image = {img}"); good = False
+                if node.get("@type") == "Article" and \
                    node.get("publisher", {}).get("logo", {}).get("url", "").endswith("logo.png") is False:
                     errors.append(f"{slug}: publisher logo modificato per errore"); good = False
         if good:

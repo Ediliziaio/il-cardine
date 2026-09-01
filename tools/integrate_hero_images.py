@@ -60,7 +60,7 @@ def convert_cards(html, counter_key, hero_slug=None, hero_alt=None):
     return CARD_RE.sub(repl, html)
 
 def fix_head_image(html, slug):
-    """og:image + dimensioni + twitter:image + JSON-LD NewsArticle.image."""
+    """og:image + dimensioni + twitter:image + JSON-LD Article.image."""
     new_url = f"{SITE}/assets/img/{slug}.webp"
     old_meta = f'<meta property="og:image" content="{LOGO_ABS}">'
     assert old_meta in html, "og:image logo non trovato"

@@ -252,7 +252,7 @@ def render(a):
         "@context": "https://schema.org",
         "@graph": [
             {
-                "@type": "NewsArticle",
+                "@type": "Article",
                 "@id": url + "#article",
                 "headline": a["h1"],
                 "description": a["description"],
@@ -333,7 +333,7 @@ def render(a):
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
-  <!-- Structured data: NewsArticle + BreadcrumbList + FAQPage (allineati al contenuto visibile) -->
+  <!-- Structured data: Article + BreadcrumbList + FAQPage (allineati al contenuto visibile) -->
   <script type="application/ld+json">
 {ld_json}
   </script>
@@ -342,7 +342,7 @@ def render(a):
 {header(a["silo"])}
 
   <main id="contenuto">
-    <article itemscope itemtype="https://schema.org/NewsArticle">
+    <article itemscope itemtype="https://schema.org/Article">
       <!-- Intestazione articolo -->
       <header class="article-head container">
         <nav class="breadcrumbs" aria-label="Percorso di navigazione">

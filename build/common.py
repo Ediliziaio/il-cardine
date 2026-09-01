@@ -33,7 +33,7 @@ def jsonld(art, word_count):
         })
     graph = [
         {
-            "@type": "NewsArticle",
+            "@type": "Article",
             "@id": url + "#article",
             "headline": art["h1"],
             "description": art["desc"],
@@ -114,7 +114,7 @@ def head(art, word_count):
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
-  <!-- Structured data: NewsArticle + BreadcrumbList + FAQPage (allineati al contenuto visibile) -->
+  <!-- Structured data: Article + BreadcrumbList + FAQPage (allineati al contenuto visibile) -->
   <script type="application/ld+json">
 %(jsonld)s
   </script>
@@ -213,7 +213,7 @@ def header(silo):
   </div>
 
   <main id="contenuto">
-    <article itemscope itemtype="https://schema.org/NewsArticle">""" % nav_html
+    <article itemscope itemtype="https://schema.org/Article">""" % nav_html
 
 
 SIDEBAR = """        <!-- Sidebar articolo -->

@@ -33,7 +33,7 @@ Topbar (data + link utili) → Masthead (logo, tagline, CTA newsletter) → Main
 
 ## 3. Template pagina articolo (33/33 conformi)
 
-1. Head SEO: title ≤60 ch con keyword · meta description ≤155 ch · canonical · robots `max-image-preview:large` · OG + Twitter Card · JSON-LD `@graph` = **NewsArticle + BreadcrumbList + FAQPage** (FAQ identiche al markup visibile).
+1. Head SEO: title ≤60 ch con keyword · meta description ≤155 ch · canonical · robots `max-image-preview:large` · OG + Twitter Card · JSON-LD `@graph` = **Article + BreadcrumbList + FAQPage** (FAQ identiche al markup visibile).
 2. Breadcrumb visibile Home › Silo › Titolo.
 3. Kicker, **un solo H1**, standfirst, byline con autore (link `/redazione/`), data pubblicazione + "Aggiornato il", minuti lettura (E-E-A-T).
 4. **Answer-box "Risposta rapida"** (40-60 parole auto-conclusive) → AEO/AI Overviews.
@@ -48,7 +48,7 @@ Topbar (data + link utili) → Masthead (logo, tagline, CTA newsletter) → Main
 |---|---|
 | Indicizzazione | sitemap.xml (49 URL) · robots.txt (Allow all, blocca solo /cerca) · canonical ovunque · feed RSS |
 | Crawler AI (GEO) | robots.txt consente esplicitamente GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended, CCBot, Applebot-Extended, meta-externalagent · **llms.txt** con sintesi e link ai pillar |
-| Structured data | Organization + WebSite (SearchAction) in home · CollectionPage + BreadcrumbList nelle categorie · NewsArticle + BreadcrumbList + FAQPage in ogni articolo |
+| Structured data | Organization + WebSite (SearchAction) in home · CollectionPage + BreadcrumbList nelle categorie · Article + BreadcrumbList + FAQPage in ogni articolo |
 | Tag | title/meta unici e in soglia (verificati a script) · 1 solo H1 per pagina (verificato) · gerarchia H2/H3 ordinata |
 | Performance | 1 CSS (24 KB) + 1 JS defer (2,3 KB) · zero framework/librerie · zero immagini raster nei contenuti (thumb CSS con aspect-ratio → CLS ≈ 0) · font con preconnect + display=swap · slot ads a dimensioni riservate |
 | Mobile | mobile-first, breakpoint 720/1080 px, menu hamburger, touch target ≥44 px, ad mobile 320×100 dedicato, nessun popup |

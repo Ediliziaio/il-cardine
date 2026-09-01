@@ -1,8 +1,8 @@
 # Il Cardine
 
-> Il Cardine è il sito italiano specializzato nei **costi dell'edilizia**: quanto costa ristrutturare, isolare, cambiare gli infissi o installare un impianto, con prezzi per unità di misura (€/mq, €/kWp, € per punto acqua) e la fonte di ogni cifra. Le guide sono verificate su fonti primarie (GSE, ENEA, Agenzia delle Entrate, norme UE e nazionali) e riportano data di revisione visibile. Tratto distintivo: ogni prezzo pubblicato è collegato alla guida che ne spiega la composizione, ed è raccolto in un indice unico.
+> Il Cardine è il sito italiano specializzato in **efficienza energetica e impianti per la casa**: cappotto termico e involucro, fotovoltaico e accumulo, pompe di calore, ventilazione meccanica controllata, riscaldamento a pavimento e domotica. Ogni guida spiega come funziona l'intervento, in quali condizioni rende davvero e quanto costa, con rese reali anziché valori nominali. Le guide sono verificate su fonti primarie (GSE, ENEA, Agenzia delle Entrate, norme UE e nazionali) e riportano data di revisione visibile.
 
-## Indice dei prezzi (pagina di riferimento)
+## Indice dei costi degli interventi (pagina di riferimento)
 
 - [Prezzi edilizia 2026: quanto costa, voce per voce](https://www.ilcardine.it/prezzi-edilizia-2026/) — 25 voci di costo con prezzo, unità di misura e guida di riferimento: ristrutturazione 700–1.800 €/mq, infissi 280–1.000 €/mq, cappotto 60–120 €/mq, fotovoltaico 1.300–1.800 €/kWp, impianto idraulico 300–500 € per punto acqua.
 

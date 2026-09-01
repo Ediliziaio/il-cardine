@@ -131,6 +131,7 @@ FOOTER = '''  <!-- Slot pubblicitario: footer -->
             <li><a href="/redazione/">Redazione</a></li>
             <li><a href="/contatti/">Contatti</a></li>
             <li><a href="/pubblicita/">Pubblicità</a></li>
+            <li><a href="/prezzi-edilizia-2026/">Prezzi edilizia 2026</a></li>
             <li><a href="/feed.xml">Feed RSS</a></li>
             <li><a href="/sitemap/">Mappa del sito</a></li>
           </ul>

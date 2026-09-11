@@ -170,15 +170,17 @@
           <p>Aziende, enti e uffici stampa possono inviare materiali e richieste di contatto a <a href="mailto:redazione@ilcardine.it">redazione@ilcardine.it</a> con oggetto «Ufficio stampa». Precisiamo che la pubblicazione dei contenuti editoriali è discrezionale e non è in vendita: per le iniziative commerciali vedi la pagina <a href="/pubblicita/">Pubblicità</a>.</p>
 
           <h2>Modulo di contatto</h2>
-          <form class="fake-form" action="#" method="post">
+          <form class="contact-form" action="#" method="post" data-eic="contatto">
             <label for="cf-nome">Nome e cognome</label>
-            <input type="text" id="cf-nome" name="nome" placeholder="Mario Rossi">
+            <input type="text" id="cf-nome" name="nome" placeholder="Mario Rossi" autocomplete="name" required>
             <label for="cf-email">Email</label>
-            <input type="email" id="cf-email" name="email" placeholder="mario.rossi@email.it">
+            <input type="email" id="cf-email" name="email" placeholder="mario.rossi@email.it" autocomplete="email" required>
             <label for="cf-msg">Messaggio</label>
-            <textarea id="cf-msg" name="messaggio" placeholder="Scrivi qui la tua segnalazione o richiesta…"></textarea>
+            <textarea id="cf-msg" name="messaggio" placeholder="Scrivi qui la tua segnalazione o richiesta…" required></textarea>
             <button class="btn" type="submit">Invia</button>
-            <small>Nota: questo modulo è dimostrativo e non invia dati. Per contattarci usa l'indirizzo email indicato sopra.</small>
+            <p class="form-esito" role="status" data-eic-ok hidden>Messaggio ricevuto, grazie! Ti rispondiamo a breve.</p>
+            <p class="form-esito form-esito-errore" role="alert" data-eic-errore hidden>Invio non riuscito. Riprova tra poco oppure scrivici a <a href="mailto:redazione@ilcardine.it">redazione@ilcardine.it</a>.</p>
+            <small>Usiamo i tuoi dati solo per rispondere alla richiesta (vedi l'<a href="/privacy/">informativa privacy</a>). Se preferisci, scrivi direttamente a <a href="mailto:redazione@ilcardine.it">redazione@ilcardine.it</a>.</small>
           </form>
 
           <h2>Altre pagine utili</h2>
@@ -210,7 +212,7 @@
           <section class="widget newsletter" aria-labelledby="nl-side">
             <h3 class="w-title" id="nl-side">Newsletter Il Cardine</h3>
             <p>Bonus, norme e cantieri: ogni settimana nella tua email, in 5 minuti.</p>
-            <form action="#" method="post">
+            <form action="#" method="post" data-eic="newsletter">
               <label class="sr-only" for="nl-email-side">Email</label>
               <input type="email" id="nl-email-side" name="email" placeholder="La tua email" required>
               <button class="btn" type="submit">Iscriviti</button>
@@ -279,5 +281,6 @@
     </div>
   </footer>
   <script src="/js/main.js" defer></script>
+  <script src="/eic-lead.js" data-form-id="e5882eed-778a-498e-9d5f-66aac50bdc8c" defer></script>
 </body>
 </html>

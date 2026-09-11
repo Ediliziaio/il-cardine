@@ -108,3 +108,4 @@ L'esemplare canonico è `efficienza-energetica/pannelli-solari-guida/index.html`
 
 ## Vincoli performance
 - Un solo CSS, un solo JS defer; niente librerie esterne; immagini solo logo (header fetchpriority alto); tutto il resto CSS. Slot ads con dimensioni riservate.
+- Unica eccezione al "solo JS": `/eic-lead.js` (defer, subito dopo `/js/main.js`, su **ogni** pagina — anche quelle senza form, perché salva UTM/gclid/fbclid all'atterraggio). Invia al CRM Edilizia in Cloud i form marcati `data-eic="newsletter"` o `data-eic="contatto"` (campi `nome`, `email`, `messaggio`). Una pagina nuova senza questo script perde la campagna di chi ci atterra.

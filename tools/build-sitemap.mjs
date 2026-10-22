@@ -10,6 +10,9 @@ import { join } from 'node:path';
 
 const ORIGIN = 'https://www.ilcardine.it';
 const root = process.cwd();
+// Curated dates survive shallow CI checkouts; a shallow boundary commit is
+// not the date on which every institutional/category page was edited.
+const pageLastmod = JSON.parse(readFileSync(join(root, 'tools/page-lastmod.json'), 'utf8'));
 
 // lastmod REALE per pagina. Mai "oggi" su tutte le URL: un lastmod che si
 // sposta a ogni build e' fake freshness, Google impara a ignorare la sitemap
@@ -19,6 +22,7 @@ const root = process.cwd();
 function lastmodFor(file, html) {
   const m = html.match(/"dateModified"\s*:\s*"(\d{4}-\d{2}-\d{2})/);
   if (m) return m[1];
+  if (pageLastmod[file]) return pageLastmod[file];
   try {
     const out = execFileSync('git', ['log', '-1', '--format=%cs', '--', file], {
       encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'],
@@ -29,12 +33,12 @@ function lastmodFor(file, html) {
 }
 
 // Scansione ricorsiva degli index.html
-const DEV = new Set(['dist', 'node_modules', '.git', '.claude', 'build', 'tools', 'assets', 'css', 'js']);
+const DEV = new Set(['dist', 'node_modules', '.git', '.claude', 'build', 'tools', 'assets', 'css', 'js', 'editorial']);
 const pages = [];
 (function walk(dir) {
   for (const entry of readdirSync(dir, { withFileTypes: true })) {
     if (entry.isDirectory()) {
-      if (DEV.has(entry.name)) continue;
+      if (DEV.has(entry.name) || entry.name.startsWith('.')) continue;
       walk(join(dir, entry.name));
     } else if (entry.name === 'index.html') {
       const rel = dir === root ? '' : dir.slice(root.length + 1).replaceAll('\\', '/') + '/';

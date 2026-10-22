@@ -15,7 +15,7 @@ const EXCLUDE_TOP = new Set([
   'dist', 'node_modules', '.git', '.claude', 'tools', 'build',
   'build_articles.py', 'package.json', 'package-lock.json',
   'BUILD-SPEC.md', 'DOCUMENTO-PROGETTO.md', '.gitignore', '.DS_Store',
-  'vercel.json',
+  'vercel.json', 'editorial',
 ]);
 
 rmSync(out, { recursive: true, force: true });
@@ -24,7 +24,7 @@ mkdirSync(out);
 // Copia voce-per-voce: Node vieta cpSync(root → root/dist). Iteriamo sui
 // top-level e copiamo solo quelli pubblicabili.
 for (const entry of readdirSync(root)) {
-  if (EXCLUDE_TOP.has(entry)) continue;
+  if (EXCLUDE_TOP.has(entry) || entry.startsWith('.')) continue;
   cpSync(resolve(root, entry), resolve(out, entry), {
     recursive: true,
     filter(src) {

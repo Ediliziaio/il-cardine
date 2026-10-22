@@ -2,8 +2,8 @@
   {
     "title": "Rifare il tetto a costo zero? Le domande prima di firmare",
     "description": "Come leggere una proposta per rifare il tetto: lavori inclusi, copertura finanziaria, responsabilità e costi esclusi, senza confondere incentivo e gratuità.",
-    "path": "/guide-pratiche/rifare-tetto-costo-zero-verifica-preventivo/",
-    "section": "guide-pratiche",
+    "path": "/ristrutturazioni/rifare-tetto-costo-zero-verifica-preventivo/",
+    "section": "native",
     "slug": "rifare-tetto-costo-zero-verifica-preventivo",
     "publishedAt": "2026-10-22T07:18:01Z",
     "image": "/editorial-assets/rifare-tetto-costo-zero-verifica-preventivo.webp",
@@ -11,26 +11,30 @@
     "sourceURLs": [
       "https://lavoro.gov.it/temi-e-priorita/salute-e-sicurezza/focus-on/documenti-tecnici/pagine/default",
       "https://agenziaentrate.gov.it/portale/aree-tematiche/casa/agevolazioni/agevolazioni-risparmio-energetico"
-    ]
+    ],
+    "previousPath": "/guide-pratiche/rifare-tetto-costo-zero-verifica-preventivo/",
+    "category": "ristrutturazioni"
   },
   {
     "title": "Renova Solution: migliorare la casa anche con lavori in più tappe",
     "description": "Priorità, collegamenti e scelte future: un percorso per conoscere l’offerta Renova Solution senza perdere la visione d’insieme della casa.",
-    "path": "/speciali-aziende/renova-solution-migliorare-la-casa-anche-con-lavori-in-piu-tappe/",
-    "section": "speciali-aziende",
+    "path": "/ristrutturazioni/renova-solution-migliorare-la-casa-anche-con-lavori-in-piu-tappe/",
+    "section": "native",
     "slug": "renova-solution-migliorare-la-casa-anche-con-lavori-in-piu-tappe",
     "publishedAt": "2026-10-22T07:18:01Z",
     "image": "/editorial-assets/renova-solution.webp",
     "sponsor": "Renova Solution",
     "sourceURLs": [
       "https://www.renovasolution.it/"
-    ]
+    ],
+    "previousPath": "/speciali-aziende/renova-solution-migliorare-la-casa-anche-con-lavori-in-piu-tappe/",
+    "category": "ristrutturazioni"
   },
   {
     "title": "Innovasol e il solare termico: raccontare la giornata della famiglia",
     "description": "Presenze, orari e uso dell’acqua calda: come trasformare le abitudini domestiche in una richiesta utile per conoscere il servizio Innovasol.",
-    "path": "/speciali-aziende/innovasol-e-il-solare-termico-raccontare-la-giornata-della-famiglia/",
-    "section": "speciali-aziende",
+    "path": "/efficienza-energetica/innovasol-e-il-solare-termico-raccontare-la-giornata-della-famiglia/",
+    "section": "native",
     "slug": "innovasol-e-il-solare-termico-raccontare-la-giornata-della-famiglia",
     "publishedAt": "2026-10-22T07:18:01Z",
     "image": "/editorial-assets/innovasol.webp",
@@ -38,19 +42,23 @@
     "sourceURLs": [
       "https://innovasol.it/",
       "https://innovasol.it/solare-termico-sicilia/"
-    ]
+    ],
+    "previousPath": "/speciali-aziende/innovasol-e-il-solare-termico-raccontare-la-giornata-della-famiglia/",
+    "category": "efficienza-energetica"
   },
   {
     "title": "Green Energy Group: valutare l’accumulo partendo dalla sera",
     "description": "Quali utilizzi si concentrano quando la famiglia torna a casa? Le informazioni da raccogliere per conoscere le soluzioni di accumulo Green Energy Group.",
-    "path": "/speciali-aziende/green-energy-group-valutare-laccumulo-partendo-dalla-sera/",
-    "section": "speciali-aziende",
+    "path": "/efficienza-energetica/green-energy-group-valutare-laccumulo-partendo-dalla-sera/",
+    "section": "native",
     "slug": "green-energy-group-valutare-laccumulo-partendo-dalla-sera",
     "publishedAt": "2026-10-22T07:18:01Z",
     "image": "/editorial-assets/green-energy-group.webp",
     "sponsor": "Green Energy Group",
     "sourceURLs": [
       "https://greenenergygroup.it/"
-    ]
+    ],
+    "previousPath": "/speciali-aziende/green-energy-group-valutare-laccumulo-partendo-dalla-sera/",
+    "category": "efficienza-energetica"
   }
 ]

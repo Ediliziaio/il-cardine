@@ -60,6 +60,36 @@
   ],
   "redirects": [
     {
+      "source": "/guide-pratiche/rifare-tetto-costo-zero-verifica-preventivo",
+      "destination": "/ristrutturazioni/rifare-tetto-costo-zero-verifica-preventivo/",
+      "permanent": true
+    },
+    {
+      "source": "/speciali-aziende/renova-solution-migliorare-la-casa-anche-con-lavori-in-piu-tappe",
+      "destination": "/ristrutturazioni/renova-solution-migliorare-la-casa-anche-con-lavori-in-piu-tappe/",
+      "permanent": true
+    },
+    {
+      "source": "/speciali-aziende/innovasol-e-il-solare-termico-raccontare-la-giornata-della-famiglia",
+      "destination": "/efficienza-energetica/innovasol-e-il-solare-termico-raccontare-la-giornata-della-famiglia/",
+      "permanent": true
+    },
+    {
+      "source": "/speciali-aziende/green-energy-group-valutare-laccumulo-partendo-dalla-sera",
+      "destination": "/efficienza-energetica/green-energy-group-valutare-laccumulo-partendo-dalla-sera/",
+      "permanent": true
+    },
+    {
+      "source": "/guide-pratiche",
+      "destination": "/ristrutturazioni/",
+      "permanent": true
+    },
+    {
+      "source": "/speciali-aziende",
+      "destination": "/ristrutturazioni/",
+      "permanent": true
+    },
+    {
       "source": "/prezzi-edilizia-2026",
       "destination": "/convenienza-energetica-2026/",
       "permanent": true

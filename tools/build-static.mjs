@@ -15,7 +15,7 @@ const EXCLUDE_TOP = new Set([
   'dist', 'node_modules', '.git', '.claude', 'tools', 'build',
   'build_articles.py', 'package.json', 'package-lock.json',
   'BUILD-SPEC.md', 'DOCUMENTO-PROGETTO.md', '.gitignore', '.DS_Store',
-  'vercel.json', 'editorial',
+  'vercel.json', 'editorial', 'scripts', 'editorial-length-policy.json',
 ]);
 
 rmSync(out, { recursive: true, force: true });

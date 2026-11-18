@@ -1,5 +1,39 @@
 [
   {
+    "title": "TE.DA Infissi: persiane, avvolgibili, porte e zanzariere",
+    "description": "Persiane, avvolgibili, frangisole, porte e zanzariere TE.DA Infissi: prodotti e servizi per le aperture della casa a Roma e nel Lazio.",
+    "path": "/serramenti-infissi/teda-infissi-oscuranti-porte-zanzariere/",
+    "section": "native",
+    "slug": "teda-infissi-oscuranti-porte-zanzariere",
+    "publishedAt": "2026-11-18",
+    "image": "/editorial-assets/teda-infissi-oscuranti-porte-zanzariere.webp",
+    "sponsor": "TE.DA Infissi",
+    "sourceURLs": [
+      "https://www.tedainfissi.com/",
+      "https://www.tedainfissi.com/outdoor",
+      "https://www.tedainfissi.com/infissi",
+      "https://www.tedainfissi.com/contatti"
+    ],
+    "category": "serramenti-infissi"
+  },
+  {
+    "title": "Dimora Torino: ristrutturazioni di appartamenti e interior design",
+    "description": "Dimora Torino ristruttura case e appartamenti, progetta gli spazi e cura l’interior design. Servizi e contatti di via Monfalcone 55/A.",
+    "path": "/ristrutturazioni/dimora-torino-ristrutturazioni-appartamenti/",
+    "section": "native",
+    "slug": "dimora-torino-ristrutturazioni-appartamenti",
+    "publishedAt": "2026-11-18",
+    "image": "/editorial-assets/dimora-torino-ristrutturazioni-appartamenti.webp",
+    "sponsor": "Dimora Torino",
+    "sourceURLs": [
+      "https://dimoratorino.it/",
+      "https://dimoratorino.it/servizi/",
+      "https://dimoratorino.it/progetti/",
+      "https://dimoratorino.it/contatti/"
+    ],
+    "category": "ristrutturazioni"
+  },
+  {
     "title": "Termografia della casa: come preparare il sopralluogo e leggere il rapporto",
     "description": "Obiettivi, condizioni di rilievo, fotografie e limiti: prepara una termografia della casa e discuti il rapporto prima di scegliere un intervento.",
     "path": "/efficienza-energetica/termografia-casa-preparare-sopralluogo/",

@@ -7,7 +7,11 @@
     <description>News, guide pratiche, incentivi, normative e tecnologie per chi costruisce, ristruttura e riqualifica in Italia.</description>
     <language>it-IT</language>
     <lastBuildDate>Tue, 15 Sep 2026 10:00:00 +0200</lastBuildDate>
-    <item>
+    <item><title>TE.DA Infissi: persiane, avvolgibili, porte e zanzariere</title><link>https://www.ilcardine.it/serramenti-infissi/teda-infissi-oscuranti-porte-zanzariere/</link><guid isPermaLink="true">https://www.ilcardine.it/serramenti-infissi/teda-infissi-oscuranti-porte-zanzariere/</guid><description>Persiane, avvolgibili, frangisole, porte e zanzariere TE.DA Infissi: prodotti e servizi per le aperture della casa a Roma e nel Lazio.</description><pubDate>Wed, 18 Nov 2026 10:00:00 GMT</pubDate></item>
+<item><title>Dimora Torino: ristrutturazioni di appartamenti e interior design</title><link>https://www.ilcardine.it/ristrutturazioni/dimora-torino-ristrutturazioni-appartamenti/</link><guid isPermaLink="true">https://www.ilcardine.it/ristrutturazioni/dimora-torino-ristrutturazioni-appartamenti/</guid><description>Dimora Torino ristruttura case e appartamenti, progetta gli spazi e cura l’interior design. Servizi e contatti di via Monfalcone 55/A.</description><pubDate>Wed, 18 Nov 2026 10:00:00 GMT</pubDate></item>
+
+
+<item>
       <title>Cantiere abbandonato: cosa fare quando l’impresa sparisce a lavori iniziati</title>
       <link>https://www.ilcardine.it/normative/cantiere-abbandonato-impresa-sparita/</link>
       <description>Lavori fermi e impresa irreperibile: come si risolve il contratto d’appalto, come si affida il completamento e come si quantifica il danno.</description>
@@ -92,5 +96,6 @@
       <guid isPermaLink="true">https://www.ilcardine.it/impianti/riscaldamento-a-pavimento-guida/</guid>
     </item>
   <item><title>Condensa dopo la sostituzione delle finestre: cosa osservare e quali verifiche chiedere</title><link>https://www.ilcardine.it/serramenti-infissi/condensa-dopo-sostituzione-finestre/</link><guid isPermaLink="true">https://www.ilcardine.it/serramenti-infissi/condensa-dopo-sostituzione-finestre/</guid><description>Condensa dopo finestre nuove: distingui osservazioni e ipotesi, raccogli dati su ambienti e ricambio d’aria e prepara un confronto tecnico utile.</description><pubDate>Sat, 07 Nov 2026 07:00:00 GMT</pubDate></item><item><title>Cassonetto della tapparella: le informazioni da raccogliere prima del sopralluogo</title><link>https://www.ilcardine.it/serramenti-infissi/cassonetto-tapparella-scheda-sopralluogo/</link><guid isPermaLink="true">https://www.ilcardine.it/serramenti-infissi/cassonetto-tapparella-scheda-sopralluogo/</guid><description>Prepara il sopralluogo del cassonetto della tapparella: osservazioni, documenti, accessi e domande da chiarire con il tecnico prima del preventivo.</description><pubDate>Sun, 08 Nov 2026 00:00:00 +0100</pubDate></item><item><title>Sostituire finestre in casa abitata</title><link>https://www.ilcardine.it/serramenti-infissi/sostituzione-finestre-casa-abitata-organizzazione/</link><guid isPermaLink="true">https://www.ilcardine.it/serramenti-infissi/sostituzione-finestre-casa-abitata-organizzazione/</guid><description>Organizza la sostituzione delle finestre in casa abitata: vani, accessi, calendario e consegna. Esempio illustrativo e scheda da compilare.</description><pubDate>Mon, 16 Nov 2026 11:56:30 +0100</pubDate></item><item><title>Termografia della casa: come preparare il sopralluogo e leggere il rapporto</title><link>https://www.ilcardine.it/efficienza-energetica/termografia-casa-preparare-sopralluogo/</link><guid isPermaLink="true">https://www.ilcardine.it/efficienza-energetica/termografia-casa-preparare-sopralluogo/</guid><pubDate>Tue, 17 Nov 2026 07:02:02 GMT</pubDate><description>Obiettivi, condizioni di rilievo, fotografie e limiti: prepara una termografia della casa e discuti il rapporto prima di scegliere un intervento.</description></item>
+
 </channel>
 </rss>

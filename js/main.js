@@ -210,6 +210,9 @@
     } catch (e) {
       saved = null;
     }
+    window.icCookieSettings = function () {
+      if (!document.querySelector(".cookie-banner")) buildBanner();
+    };
     if (saved) return;
 
     function buildBanner() {
@@ -219,7 +222,7 @@
       banner.setAttribute("aria-label", "Informativa breve sui cookie");
       banner.setAttribute("aria-live", "polite");
       banner.innerHTML =
-        '<p class="cb-text">Questo sito usa solo cookie tecnici e, previo consenso, strumenti di misurazione anonima. ' +
+        '<p class="cb-text">Questo sito usa solo cookie tecnici e, previo consenso, strumenti per le statistiche di utilizzo. ' +
         'Dettagli nella <a href="/cookie-policy/">cookie policy</a>.</p>' +
         '<div class="cb-actions">' +
         '<button type="button" class="cb-btn cb-reject" data-consent="rejected">Rifiuta</button>' +
@@ -234,6 +237,7 @@
         } catch (e) {
           /* storage non disponibile: chiudi comunque il banner */
         }
+        window.dispatchEvent(new CustomEvent("ic:consent", { detail: { analytics: btn.getAttribute("data-consent") === "accepted", marketing: false } }));
         banner.classList.add("is-hiding");
         var remove = function () {
           if (banner.parentNode) banner.parentNode.removeChild(banner);

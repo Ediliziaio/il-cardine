@@ -29,51 +29,96 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "CollectionPage",
-        "@id": "https://www.ilcardine.it/normative/#collection",
-        "name": "Normative: news e guide",
-        "description": "Normative edilizia: direttiva Case Green, sicurezza in cantiere D.Lgs 81/08, NTC e certificazione APE. Le regole del costruire spiegate in chiaro.",
-        "url": "https://www.ilcardine.it/normative/",
-        "inLanguage": "it-IT",
-        "isPartOf": {
-          "@id": "https://www.ilcardine.it/#website"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "Il Cardine",
-          "url": "https://www.ilcardine.it/",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.ilcardine.it/assets/logo.png",
-            "width": 634,
-            "height": 128
-          }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.ilcardine.it/normative/#collection",
+      "name": "Normative: news e guide",
+      "description": "Normative edilizia: direttiva Case Green, sicurezza in cantiere D.Lgs 81/08, NTC e certificazione APE. Le regole del costruire spiegate in chiaro.",
+      "url": "https://www.ilcardine.it/normative/",
+      "inLanguage": "it-IT",
+      "isPartOf": {
+        "@id": "https://www.ilcardine.it/#website"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Il Cardine",
+        "url": "https://www.ilcardine.it/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.ilcardine.it/assets/logo.png",
+          "width": 634,
+          "height": 128
         }
       },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://www.ilcardine.it/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Normative"
-          }
-        ]
+      "mainEntity": {
+        "@id": "https://www.ilcardine.it/normative/#articoli"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ilcardine.it/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Normative"
+        }
+      ]
+    }
+  ]
+}
+</script>
 <!-- EIC analytics: local runtime, consent required; Google stays off until verified activation. -->
+<script type="application/ld+json" data-editorial-index>
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "@id": "https://www.ilcardine.it/normative/#articoli",
+  "name": "Articoli — Normative",
+  "itemListOrder": "https://schema.org/ItemListUnordered",
+  "numberOfItems": 5,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "url": "https://www.ilcardine.it/normative/cantiere-abbandonato-impresa-sparita/",
+      "name": "Cantiere abbandonato: cosa fare quando l’impresa sparisce a lavori iniziati"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "url": "https://www.ilcardine.it/normative/direttiva-case-green-cosa-cambia/",
+      "name": "Case Green: quali interventi servono per raggiungere la classe richiesta"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "url": "https://www.ilcardine.it/normative/certificazione-ape-guida/",
+      "name": "Certificazione APE: quando è obbligatoria, costi e classi energetiche"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "url": "https://www.ilcardine.it/normative/ntc-norme-tecniche-costruzioni/",
+      "name": "NTC: le Norme Tecniche per le Costruzioni spiegate in pratica"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "url": "https://www.ilcardine.it/normative/sicurezza-cantiere-dlgs-81/",
+      "name": "Sicurezza in cantiere: D.Lgs 81/08, obblighi e novità 2026"
+    }
+  ]
+}
+</script>
 <script defer src="/assets/tracking/analytics-config.js?v=0d57f55e7348"></script>
 <script defer src="/assets/tracking/analytics-loader.js?v=7ea44b13faf6"></script>
 <script defer src="/assets/tracking/consent-adapter.js?v=487b1540a88d"></script>
@@ -167,7 +212,17 @@
     <div class="container">
       <div class="layout-main">
         <div>
-          <div class="card-grid">
+          <!-- editorial-reading-paths:start -->
+<section class="widget" aria-labelledby="percorso-lettura">
+<h2 class="w-title" id="percorso-lettura">Da dove iniziare</h2>
+<p>Le domande sulle regole cambiano secondo edificio, progetto e fase dei lavori. Parti dal tema dell’intervento, poi usa le guide per preparare il confronto con i professionisti coinvolti.</p>
+<h3>Individuare il tema tecnico</h3>
+<p>Strutture, prestazione energetica e riqualificazione sono ambiti distinti: scegli il quadro che corrisponde alla domanda da approfondire. <a href="/normative/ntc-norme-tecniche-costruzioni/">NTC: le Norme Tecniche per le Costruzioni spiegate in pratica</a> · <a href="/normative/certificazione-ape-guida/">Certificazione APE: quando è obbligatoria, costi e classi energetiche</a> · <a href="/normative/direttiva-case-green-cosa-cambia/">Case Green: quali interventi servono per raggiungere la classe richiesta</a>.</p>
+<h3>Orientarsi durante i lavori</h3>
+<p>Le guide seguenti affrontano sicurezza, documenti dell’intervento e raccolta delle informazioni quando il cantiere si interrompe. <a href="/normative/sicurezza-cantiere-dlgs-81/">Sicurezza in cantiere: D.Lgs 81/08, obblighi e novità 2026</a> · <a href="/ristrutturazioni/ristrutturare-casa-permessi-cila-scia/">Ristrutturare casa: quali permessi servono tra CILA, SCIA e titolo edilizio</a> · <a href="/normative/cantiere-abbandonato-impresa-sparita/">Cantiere abbandonato: cosa fare quando l’impresa sparisce a lavori iniziati</a>.</p>
+</section>
+<!-- editorial-reading-paths:end -->
+<div class="card-grid">
             <article class="card">
               <a href="/normative/cantiere-abbandonato-impresa-sparita/"><img src="/assets/img/cantiere-abbandonato-impresa-sparita.webp" alt="Cantiere abbandonato: cosa fare quando l’impresa sparisce a lavori iniziati" width="1200" height="675" loading="lazy" class="thumb-img"></a>
               <div class="card-body">

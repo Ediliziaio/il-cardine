@@ -1,0 +1,264 @@
+{
+  "kind": "cardine",
+  "name": "Il Cardine",
+  "origin": "https://www.ilcardine.it",
+  "archive": "/sitemap/",
+  "hubs": [
+    {
+      "path": "/ristrutturazioni/",
+      "intro": "Una ristrutturazione mette insieme scelte di progetto, offerte e organizzazione dei lavori. Parti dal problema che devi chiarire: le guide seguenti affrontano passaggi diversi e si possono leggere in sequenza.",
+      "archiveDescription": "Progetto, offerte e organizzazione dei lavori in casa.",
+      "routes": [
+        {
+          "title": "Definire intervento e offerta",
+          "description": "Per leggere un preventivo, affianca il quadro dei lavori ai documenti e alle responsabilità previste.",
+          "links": [
+            "/ristrutturazioni/ristrutturare-casa-permessi-cila-scia/",
+            "/ristrutturazioni/costo-ristrutturazione-al-mq-2026/",
+            "/ristrutturazioni/ristrutturazione-chiavi-in-mano/"
+          ]
+        },
+        {
+          "title": "Preparare i lavori in casa",
+          "description": "Bagno e copertura richiedono domande diverse. Usa la guida del tuo intervento per preparare il confronto con chi lo segue.",
+          "links": [
+            "/ristrutturazioni/ristrutturare-bagno-costi-tempi/",
+            "/ristrutturazioni/rifare-tetto-costo-zero-verifica-preventivo/"
+          ]
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "path": "/serramenti-infissi/",
+      "intro": "Scegliere una finestra e organizzare la sua sostituzione sono due momenti diversi. Qui puoi passare dal confronto dei prodotti alla preparazione dei vani, fino alle osservazioni da raccogliere dopo i lavori.",
+      "archiveDescription": "Materiali, vetri, sopralluogo e sostituzione delle finestre.",
+      "routes": [
+        {
+          "title": "Confrontare prima dell’ordine",
+          "description": "Leggi materiali, configurazione del vetro e voci dell’offerta insieme.",
+          "links": [
+            "/serramenti-infissi/serramenti-pvc-alluminio-legno-confronto/",
+            "/serramenti-infissi/finestre-triplo-vetro-conviene/",
+            "/serramenti-infissi/prezzi-infissi-al-mq-2026/"
+          ]
+        },
+        {
+          "title": "Organizzare la sostituzione",
+          "description": "Prepara accessi, vani e informazioni da consegnare prima dell’intervento.",
+          "links": [
+            "/serramenti-infissi/sostituzione-finestre-casa-abitata-organizzazione/",
+            "/serramenti-infissi/cassonetto-tapparella-scheda-sopralluogo/"
+          ]
+        },
+        {
+          "title": "Orientarsi dopo i lavori",
+          "description": "Se compare condensa, raccogli osservazioni prima di collegarla a una causa. Per la scelta del fornitore, parti invece dai criteri di confronto.",
+          "links": [
+            "/serramenti-infissi/condensa-dopo-sostituzione-finestre/",
+            "/serramenti-infissi/top-5-produttori-serramenti-italia/"
+          ]
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "path": "/efficienza-energetica/",
+      "intro": "Impianto, involucro e abitudini d’uso entrano nello stesso progetto, ma richiedono dati differenti. Scegli il percorso in base alla domanda che devi risolvere e conserva i documenti delle proposte confrontate.",
+      "archiveDescription": "Fotovoltaico, pompe di calore, involucro e verifiche dell’edificio.",
+      "routes": [
+        {
+          "title": "Preparare il confronto sul fotovoltaico",
+          "description": "Parti dal quadro generale, poi approfondisci il preventivo e i riferimenti sugli incentivi.",
+          "links": [
+            "/efficienza-energetica/pannelli-solari-guida/",
+            "/efficienza-energetica/fotovoltaico-costi-2026/",
+            "/efficienza-energetica/fotovoltaico-incentivi-2026/"
+          ]
+        },
+        {
+          "title": "Leggere edificio e impianto insieme",
+          "description": "Per un confronto più completo, collega le informazioni sul generatore alle caratteristiche dell’involucro e ai rilievi disponibili.",
+          "links": [
+            "/efficienza-energetica/pompe-di-calore-come-funzionano/",
+            "/efficienza-energetica/cappotto-termico-esterno-guida/",
+            "/efficienza-energetica/termografia-casa-preparare-sopralluogo/"
+          ]
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "path": "/materiali-costruzione/",
+      "intro": "Il nome di un materiale non descrive da solo il suo impiego nel progetto. Le guide aiutano a preparare un confronto fra soluzioni e a collegare la scelta ai documenti e alle lavorazioni previste.",
+      "archiveDescription": "Materiali per strutture e involucro, confronti e impieghi.",
+      "routes": [
+        {
+          "title": "Confrontare le soluzioni di progetto",
+          "description": "Scegli il punto di partenza in base all’elemento dell’edificio che stai esaminando.",
+          "links": [
+            "/materiali-costruzione/materiali-isolanti-confronto/",
+            "/materiali-costruzione/laterizi-blocchi-termici-guida/",
+            "/materiali-costruzione/edilizia-legno-xlam/"
+          ]
+        },
+        {
+          "title": "Collegare materiale e lavorazione",
+          "description": "Approfondisci le tipologie di calcestruzzo e, se il tema è pertinente al progetto, il percorso sulla stampa 3D.",
+          "links": [
+            "/materiali-costruzione/calcestruzzo-tipologie-usi/",
+            "/tecnologie-innovazione/stampa-3d-edilizia/"
+          ]
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "path": "/impianti/",
+      "intro": "Per valutare un impianto servono sia le informazioni sui componenti sia quelle sugli ambienti. Questi percorsi distinguono il confronto del riscaldamento dall’organizzazione degli altri interventi della casa.",
+      "archiveDescription": "Riscaldamento, ventilazione, impianti idraulici e domotica.",
+      "routes": [
+        {
+          "title": "Confrontare riscaldamento e regolazione",
+          "description": "Leggi prima il sistema di distribuzione e poi le guide sui componenti con cui viene messo in relazione.",
+          "links": [
+            "/impianti/riscaldamento-a-pavimento-guida/",
+            "/efficienza-energetica/pompe-di-calore-come-funzionano/",
+            "/impianti/domotica-casa-impianti-guida/"
+          ]
+        },
+        {
+          "title": "Preparare interventi e verifiche",
+          "description": "Per acqua e ricambio d’aria, raccogli le domande relative all’impianto prima di discutere le soluzioni.",
+          "links": [
+            "/impianti/rifacimento-impianto-idraulico-costi/",
+            "/impianti/vmc-ventilazione-meccanica-controllata/"
+          ]
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "path": "/incentivi-bonus/",
+      "intro": "Prima di confrontare le agevolazioni, identifica l’intervento e i soggetti coinvolti. I percorsi separano le guide generali dagli approfondimenti da affiancare alla valutazione del singolo progetto.",
+      "archiveDescription": "Guide sugli incentivi, documenti e collegamenti agli interventi.",
+      "routes": [
+        {
+          "title": "Partire dall’intervento",
+          "description": "Consulta il quadro pertinente al lavoro e verifica i riferimenti della guida prima di assumere decisioni economiche.",
+          "links": [
+            "/incentivi-bonus/bonus-ristrutturazione-2026-guida/",
+            "/incentivi-bonus/ecobonus-2026-come-funziona/",
+            "/incentivi-bonus/conto-termico-3-guida/"
+          ]
+        },
+        {
+          "title": "Approfondire il caso specifico",
+          "description": "Per interventi con regole o impianti differenti, affianca al quadro generale la lettura dedicata.",
+          "links": [
+            "/incentivi-bonus/superbonus-2026-cosa-resta/",
+            "/efficienza-energetica/fotovoltaico-incentivi-2026/"
+          ]
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "path": "/tecnologie-innovazione/",
+      "intro": "La scelta di uno strumento digitale parte dal lavoro da svolgere e dalle informazioni da condividere. Puoi distinguere l’organizzazione del progetto dalle tecnologie impiegate nella costruzione.",
+      "archiveDescription": "BIM, strumenti digitali, intelligenza artificiale e stampa 3D.",
+      "routes": [
+        {
+          "title": "Organizzare il progetto digitale",
+          "description": "Collega il quadro sul BIM alle domande da usare nel confronto dei software e degli altri strumenti.",
+          "links": [
+            "/tecnologie-innovazione/bim-obbligatorio-scadenze/",
+            "/tecnologie-innovazione/top-5-software-bim-edilizia/",
+            "/tecnologie-innovazione/intelligenza-artificiale-cantiere/"
+          ]
+        },
+        {
+          "title": "Approfondire una tecnologia costruttiva",
+          "description": "Per capire di quale processo si sta discutendo, leggi insieme tecnologia e materiale impiegato.",
+          "links": [
+            "/tecnologie-innovazione/stampa-3d-edilizia/",
+            "/materiali-costruzione/calcestruzzo-tipologie-usi/"
+          ]
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "path": "/normative/",
+      "intro": "Le domande sulle regole cambiano secondo edificio, progetto e fase dei lavori. Parti dal tema dell’intervento, poi usa le guide per preparare il confronto con i professionisti coinvolti.",
+      "archiveDescription": "Documenti dell’edificio, strutture, regole e organizzazione del cantiere.",
+      "routes": [
+        {
+          "title": "Individuare il tema tecnico",
+          "description": "Strutture, prestazione energetica e riqualificazione sono ambiti distinti: scegli il quadro che corrisponde alla domanda da approfondire.",
+          "links": [
+            "/normative/ntc-norme-tecniche-costruzioni/",
+            "/normative/certificazione-ape-guida/",
+            "/normative/direttiva-case-green-cosa-cambia/"
+          ]
+        },
+        {
+          "title": "Orientarsi durante i lavori",
+          "description": "Le guide seguenti affrontano sicurezza, documenti dell’intervento e raccolta delle informazioni quando il cantiere si interrompe.",
+          "links": [
+            "/normative/sicurezza-cantiere-dlgs-81/",
+            "/ristrutturazioni/ristrutturare-casa-permessi-cila-scia/",
+            "/normative/cantiere-abbandonato-impresa-sparita/"
+          ]
+        }
+      ],
+      "aliases": []
+    }
+  ],
+  "contexts": [
+    {
+      "path": "/serramenti-infissi/condensa-dopo-sostituzione-finestre/",
+      "parts": [
+        "Se le osservazioni riguardano anche il vano della tapparella, la ",
+        {
+          "path": "/serramenti-infissi/cassonetto-tapparella-scheda-sopralluogo/",
+          "label": "scheda per il sopralluogo del cassonetto"
+        },
+        " aiuta a preparare informazioni e domande per quel componente. Per coordinare eventuali lavori con l’uso degli ambienti, consulta anche ",
+        {
+          "path": "/serramenti-infissi/sostituzione-finestre-casa-abitata-organizzazione/",
+          "label": "guida alla sostituzione delle finestre in casa abitata"
+        },
+        "."
+      ],
+      "breadcrumb": "/serramenti-infissi/"
+    },
+    {
+      "path": "/impianti/riscaldamento-a-pavimento-guida/",
+      "parts": [
+        "Se nel confronto mancano informazioni sugli ambienti, la guida ",
+        {
+          "path": "/efficienza-energetica/termografia-casa-preparare-sopralluogo/",
+          "label": "alla preparazione del sopralluogo termografico"
+        },
+        " spiega come preparare una richiesta di rilievo e quali dati raccogliere. Tieni distinta questa fase dalla scelta dei componenti dell’impianto."
+      ]
+    },
+    {
+      "path": "/materiali-costruzione/calcestruzzo-tipologie-usi/",
+      "parts": [
+        "Per approfondire un diverso processo di impiego del materiale, leggi ",
+        {
+          "path": "/tecnologie-innovazione/stampa-3d-edilizia/",
+          "label": "l’approfondimento sulla stampa 3D in edilizia"
+        },
+        ". Il confronto con la ",
+        {
+          "path": "/normative/ntc-norme-tecniche-costruzioni/",
+          "label": "guida alle NTC"
+        },
+        " aiuta invece a collocare le domande sulle strutture nel loro quadro di riferimento."
+      ]
+    }
+  ]
+}
